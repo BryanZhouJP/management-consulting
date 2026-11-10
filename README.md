@@ -4,19 +4,23 @@
 
 # management-consulting — Strategy Skill for AI Coding Agents
 
-Turn your AI agent into a structured thinking partner for strategy, decisions, and analysis. 42 frameworks with practitioner-grade depth — not textbook theory, but step-by-step workflows, real examples, common mistakes, and when each framework breaks down.
+A lightweight, open-source playbook for turning AI coding agents into structured strategy and decision partners.
 
-Built for Claude Code. Compatible with Codex, Gemini CLI, Cursor, and any agent that reads SKILL.md files.
+This repository packages 42 practitioner-grade frameworks into reusable workflows for market analysis, competitive strategy, problem solving, pricing, operations, innovation, and decision-making. It is designed to help agents reason with structure, separate fact from inference, and produce output that is actionable instead of generic.
+
+Built for Claude Code and compatible with Codex, Gemini CLI, Cursor, and any agent that reads SKILL.md files.
 
 ## Why this exists
 
-Asking an LLM to "act like a consultant" produces generic framework-salad. This skill fixes that by providing:
+Most AI outputs sound plausible but drift into generic framework-salad. This repo adds a disciplined process instead:
 
-- **Process discipline** — clarify the decision before analyzing. Structure before hypothesizing. Evidence-label every claim.
-- **Framework depth** — 4,100+ lines of practitioner workflows across 42 frameworks. Each has step-by-step application, good/bad output examples, common mistakes, and failure conditions.
-- **Three modes** — Quick Structure (exploratory), Full Case (analytical), Client Deliverable (polished). Matches response depth to your actual need.
-- **Quality gates** — output contract, devil's advocate step, 9-point checklist. Prevents shallow answers.
-- **Anti-selection rules** — tells the agent when NOT to use a framework. Stops Five Forces on every strategy question.
+- **Clarify the decision first** — define the objective, decision, and constraints before analyzing.
+- **Use the right framework for the real problem** — not every decision needs Five Forces or a SWOT deck.
+- **Separate fact, inference, and assumption** — evidence quality matters as much as the answer.
+- **Structure before hypothesis** — break the problem into decision-relevant questions and priority trade-offs.
+- **Avoid shallow consultant-style answers** — check common failure modes, anti-patterns, and when a framework breaks down.
+
+The package includes 42 frameworks, step-by-step application flows, concrete examples, and quality gates designed to keep AI reasoning useful in real business settings.
 
 ## Install
 
